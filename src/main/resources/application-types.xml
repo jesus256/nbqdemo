@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="xmlResponse" format="xml">
+      <types:example format="xml" element="{http://www.bil.ie/projections/webservices/messages/quotation}PerformQuoteResponse" location="examples/ExpectedLifeChoiceResponse.xml"/>
+    </types:type>
+    <types:type name="jsonResponse" format="json">
+      <types:example format="json" location="examples/LifeResponse.json"/>
+    </types:type>
+    <types:type name="jsonRequest" format="json">
+      <types:example format="json" location="examples/LifeRequest.json"/>
+    </types:type>
+    <types:type name="xmlRequest" format="xml">
+      <types:example format="xml" element="{http://www.bil.ie/projections/webservices/messages/quotation}PerformQuoteRequest" location="examples/SampleLifeChoiceRequest.xml"/>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#33773d07-55d7-49f8-9810-bd341143ac59">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="jsonRequest"/>
+        </types:message>
+      </types:input-event>
+      <types:output-event>
+        <types:message>
+          <types:payload type="xmlRequest"/>
+        </types:message>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#1a5b4c45-5611-4054-99d0-85a3e5eab393">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="xmlResponse"/>
+        </types:message>
+      </types:input-event>
+      <types:output-event>
+        <types:message>
+          <types:payload type="jsonResponse"/>
+        </types:message>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns11:PerformQuoteRequest xmlns="http://party.framework.domain.projections.bil.ie" xmlns:ns2="http://generaltypes.common.framework.domain.projections.bil.ie" xmlns:ns3="http://client.framework.domain.projections.bil.ie" xmlns:ns4="http://policy.framework.domain.projections.bil.ie" xmlns:ns5="http://ulpolicydata.framework.domain.projections.bil.ie" xmlns:ns6="http://nulpolicydata.framework.domain.projections.bil.ie" xmlns:ns7="http://trackerpolicydata.framework.domain.projections.bil.ie" xmlns:ns8="http://pensionoptionscase.framework.domain.projections.bil.ie" xmlns:ns9="http://retirementoptionscaldetail.userinterface.domain.projections.bil.ie" xmlns:ns10="http://www.focus-solutions.co.uk/focus360/1.0" xmlns:ns11="http://www.bil.ie/projections/webservices/messages/quotation" xmlns:ns12="http://ulproddef.framework.domain.projections.bil.ie" xmlns:ns13="http://productdefinition.framework.domain.projections.bil.ie" xmlns:ns14="http://NULProdDefTypes.common.framework.domain.projections.bil.ie" xmlns:ns15="http://trackerproddef.framework.domain.projections.bil.ie" xmlns:ns16="http://quotescenario.framework.domain.projections.bil.ie" xmlns:ns17="http://inputvalues.framework.domain.projections.bil.ie" xmlns:ns18="http://projectionsref.framework.domain.projections.bil.ie">
+    <ns11:client>
+        <ns3:ClientDetails>
+            <PolicyRelationship>FirstOwner</PolicyRelationship>
+            <ReferenceNr>50991234</ReferenceNr>
+            <PartyDetails>
+                <Individual>
+                    <Name salutation="" forename="Coleen" surname="Rooney"/>
+                    <DateOfBirth>1955-02-10T00:00:00.000Z</DateOfBirth>
+                    <Age>62</Age>
+                    <Gender>Female</Gender>
+                    <MaritalStatus>Married</MaritalStatus>
+                    <ValidPPSNumber>false</ValidPPSNumber>
+                </Individual>
+            </PartyDetails>
+            <ContactDetails>
+                <PostalAddress>
+                    <Line>Everton</Line>
+                </PostalAddress>
+                <EmailAddress></EmailAddress>
+            </ContactDetails>
+            <ForAttentionOf>
+                <FAO faoName=""/>
+            </ForAttentionOf>
+        </ns3:ClientDetails>
+        <ns3:Policy>
+            <ns4:SystemInfo>
+                <ns4:SourceOfData>AS400</ns4:SourceOfData>
+                <ns4:ClientSystem>Life400</ns4:ClientSystem>
+                <ns4:ForCompany>NewIrelandAssurance</ns4:ForCompany>
+                <ns4:QuoteCategory>NBQ</ns4:QuoteCategory>
+                <ns4:QuoteRequired>true</ns4:QuoteRequired>
+                <ns4:ExtractDate>2017-09-06T00:00:00.000+01:00</ns4:ExtractDate>
+                <ns4:LastUpdated>2017-09-06T00:00:00.000+01:00</ns4:LastUpdated>
+                <ns4:ManualDisclosureRequired>false</ns4:ManualDisclosureRequired>
+                <ns4:L400UserID>PMCKENNA</ns4:L400UserID>
+                <ns4:AdminSystemTransCode>TC65</ns4:AdminSystemTransCode>
+                <ns4:DocId>ENV2H 11491581</ns4:DocId>
+                <ns4:ArchiveOnly>false</ns4:ArchiveOnly>
+                <ns4:ClientIssueAddressType>UNKNOWN</ns4:ClientIssueAddressType>
+            </ns4:SystemInfo>
+            <ns4:Identification>
+                <ns4:PolicyNumber>70262541</ns4:PolicyNumber>
+                <ns4:ProductIdentifier mainIdentifier="WN6" secondaryIdentifier="SFNI" secondaryDescription="Life Choice - You and Family"/>
+            </ns4:Identification>
+            <ns4:ClientInfo>
+                <ns2:LifeDetails forLife="Life1">
+                    <ns2:DOB>1955-02-10T00:00:00.000Z</ns2:DOB>
+                    <ns2:Sex>Female</ns2:Sex>
+                    <ns2:ClientStatus>Live</ns2:ClientStatus>
+                    <ns2:GIOExcluded>true</ns2:GIOExcluded>
+                    <ns2:MaritalStatus>Married</ns2:MaritalStatus>
+                    <ns2:SmokerStatus>NonSmoker</ns2:SmokerStatus>
+                    <ns2:ClientName> Colleen Rooney</ns2:ClientName>
+                </ns2:LifeDetails>
+                <ns2:LifeDetails forLife="Life2">
+                    <ns2:DOB>1966-01-02T00:00:00.000Z</ns2:DOB>
+                    <ns2:Sex>Male</ns2:Sex>
+                    <ns2:ClientStatus>Live</ns2:ClientStatus>
+                    <ns2:MaritalStatus>Married</ns2:MaritalStatus>
+                    <ns2:SmokerStatus>NonSmoker</ns2:SmokerStatus>
+                    <ns2:ClientName> Peter Crouch</ns2:ClientName>
+                </ns2:LifeDetails>
+                <ns2:DeathIndicator>DualLife</ns2:DeathIndicator>
+                <ns2:PremierClient>false</ns2:PremierClient>
+            </ns4:ClientInfo>
+            <ns4:SellerInfo>
+                <ns4:Branch>10</ns4:Branch>
+                <ns4:AgentNumber>0051279J</ns4:AgentNumber>
+                <ns4:AgencyName>50398968.SN</ns4:AgencyName>
+                <ns4:AgentUpliftFactors initialUplift="0.0" renewalUplift="1.0" singlePremiumUplift="1.0"/>
+                <ns4:SellerChannel>TiedAgent</ns4:SellerChannel>
+                <ns4:SellerSubChannel>TA</ns4:SellerSubChannel>
+                <ns4:Correspondence>
+                    <ns4:CorrespondenceSellerChannel>DSF</ns4:CorrespondenceSellerChannel>
+                    <ns4:AgentRequiresCopy>false</ns4:AgentRequiresCopy>
+                    <ns4:DefaultDocRecipient>PolicyOwner</ns4:DefaultDocRecipient>
+                </ns4:Correspondence>
+                <ns4:LifeChoiceOption>OptionA</ns4:LifeChoiceOption>
+                <ns4:StraightThroughBonus>10.0</ns4:StraightThroughBonus>
+            </ns4:SellerInfo>
+            <ns4:PolicyData>
+                <ns4:NULPolicyData>
+                    <ns6:PolicyDates>
+                        <ns6:PolicyStartDate>2017-09-06T00:00:00.000Z</ns6:PolicyStartDate>
+                        <ns6:PolicyEndDate>2033-09-06T14:35:01.000+01:00</ns6:PolicyEndDate>
+                        <ns6:PolicyTermInMonths>192</ns6:PolicyTermInMonths>
+                        <ns6:PolicyTerm years="16" months="0" retirementAge="0"/>
+                    </ns6:PolicyDates>
+                    <ns6:BenefitInfo>
+                        <ns6:Term>16</ns6:Term>
+                        <ns6:MonthlyIncomeBenefitsTerm>6</ns6:MonthlyIncomeBenefitsTerm>
+                        <ns6:RiskBenefits benefitId="LifeCoverExclusive" forLife="Life1" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="170000.0" deferredWeeks="0" premium="221.0" benefitNumber="01" coverageCode="DLNC" revisedIndexedBenSumAssured="0.0">
+                            <ns2:Rating forLife="Life1">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" percentageRating="0.25" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="16.0" typeOfLoadingFromL400="Z1"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="SACriticalIllness" forLife="Life1" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2030-02-10T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="90000.0" deferredWeeks="0" premium="418.34" benefitNumber="02" coverageCode="DCDD" revisedIndexedBenSumAssured="0.0">
+                        <!--ns6:RiskBenefits benefitId="SACriticalIllness" forLife="Life1" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2029-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="90000.0" deferredWeeks="0" premium="418.34" benefitNumber="02" coverageCode="DCDD" revisedIndexedBenSumAssured="0.0"-->
+                            <ns2:Rating forLife="Life1">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2029-09-06T00:00:00.000Z" percentageRating="0.25" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="12.0" typeOfLoadingFromL400="Z1"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="WholeOfLifeContinuation" forLife="Life1" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="39000.0" deferredWeeks="0" premium="220.86" benefitNumber="03" coverageCode="WOL1" revisedIndexedBenSumAssured="0.0">
+                            <ns2:Rating forLife="Life1">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" percentageRating="0.25" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="16.0" typeOfLoadingFromL400="Z1"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="LifeCoverExclusive" forLife="Life2" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="230000.0" deferredWeeks="0" premium="1377.4" benefitNumber="04" coverageCode="DLND" revisedIndexedBenSumAssured="0.0">
+                            <ns2:Rating forLife="Life2">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" percentageRating="0.25" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="16.0" typeOfLoadingFromL400="Z1"/>
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2022-09-06T00:00:00.000Z" premiumLevelRating="1.0" additionToRateRating="55.0" additionToRateRatingYears="5.0" typeOfLoadingFromL400="Z2"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="SACriticalIllness" forLife="Life2" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="50000.0" deferredWeeks="0" premium="114.65" benefitNumber="05" coverageCode="DCDE" revisedIndexedBenSumAssured="0.0">
+                            <ns2:Rating forLife="Life2">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" percentageRating="0.5" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="16.0" typeOfLoadingFromL400="Z1"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="IncomeOnDeath" forLife="Life2" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2023-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="500.0" deferredWeeks="0" premium="167.66" benefitNumber="06" coverageCode="FIB2" revisedIndexedBenSumAssured="0.0">
+                            <ns2:Rating forLife="Life2">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2023-09-06T00:00:00.000Z" percentageRating="0.25" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="6.0" typeOfLoadingFromL400="Z1"/>
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2022-09-06T00:00:00.000Z" premiumLevelRating="1.0" additionToRateRating="55.0" additionToRateRatingYears="5.0" typeOfLoadingFromL400="Z2"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="WholeOfLifeContinuation" forLife="Life2" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="10000.0" deferredWeeks="0" premium="106.49" benefitNumber="07" coverageCode="WOL2" revisedIndexedBenSumAssured="0.0">
+                            <ns2:Rating forLife="Life2">
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2033-09-06T00:00:00.000Z" percentageRating="0.25" premiumLevelRating="1.0" additionToRateRating="0.0" additionToRateRatingYears="16.0" typeOfLoadingFromL400="Z1"/>
+<ns2:RatingRow startDate="2017-09-06T00:00:00.000Z" endDate="2022-09-06T00:00:00.000Z" premiumLevelRating="1.0" additionToRateRating="55.0" additionToRateRatingYears="5.0" typeOfLoadingFromL400="Z2"/>
+                            </ns2:Rating>
+                        </ns6:RiskBenefits>
+                        <ns6:RiskBenefits benefitId="HospitalCash" forLife="Life2" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2031-01-02T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="75.0" deferredWeeks="0" premium="9.96" benefitNumber="08" coverageCode="HCPE" revisedIndexedBenSumAssured="0.0"/>
+                        <ns6:RiskBenefits benefitId="PremierAccident" forLife="Life2" benefitStatus="Active" startDate="2017-09-06T00:00:00.000Z" endDate="2031-01-02T00:00:00.000Z" smokerStatus="NonSmoker" sumAssured="210.0" deferredWeeks="0" premium="10.44" benefitNumber="09" coverageCode="ACP8" revisedIndexedBenSumAssured="0.0"/>
+                    </ns6:BenefitInfo>
+                    <ns6:RegPremiumDetails>
+                        <ns6:PaymentFrequency>Monthly</ns6:PaymentFrequency>
+                        <ns6:PaymentMethod>DirectDebit</ns6:PaymentMethod>
+                        <ns6:PremAmount>2646.8</ns6:PremAmount>
+                        <ns6:IsIndexing>true</ns6:IsIndexing>
+                        <ns6:indexationRate>3.0</ns6:indexationRate>
+                    </ns6:RegPremiumDetails>
+                    <ns6:ConversionOption>false</ns6:ConversionOption>
+                    <ns6:Commission>
+                        <ns6:ChargingMethod>N28</ns6:ChargingMethod>
+                    </ns6:Commission>
+                </ns4:NULPolicyData>
+            </ns4:PolicyData>
+            <ns4:PolicyInterestedParties>
+                <PartyRow>
+                    <PolicyRelationship>FirstOwner</PolicyRelationship>
+                    <PolicyRelationship>FirstLifeAssured</PolicyRelationship>
+                    <PolicyRelationship>IssueAddress</PolicyRelationship>
+                    <PolicyRelationship>Other</PolicyRelationship>
+                    <ReferenceNr>50991234</ReferenceNr>
+                    <PartyDetails>
+                        <Individual>
+                            <Name salutation="Ms" forename="" surname="Colleen Rooney"/>
+                            <DateOfBirth>1955-02-10T00:00:00.000Z</DateOfBirth>
+                            <Age>62</Age>
+                            <Gender>Female</Gender>
+                            <Occupation></Occupation>
+                            <MaritalStatus>Married</MaritalStatus>
+                            <ValidPPSNumber>false</ValidPPSNumber>
+                            <EmploymentDetails>
+<RetirementAge>0</RetirementAge>
+                            </EmploymentDetails>
+                        </Individual>
+                    </PartyDetails>
+                    <ContactDetails>
+                        <PostalAddress>
+                            <Line>Everton</Line>
+                        </PostalAddress>
+                        <EmailAddress></EmailAddress>
+                    </ContactDetails>
+                    <ForAttentionOf>
+                        <FAO faoName=""/>
+                    </ForAttentionOf>
+                </PartyRow>
+                <PartyRow>
+                    <PolicyRelationship>SecondLifeAssured</PolicyRelationship>
+                    <ReferenceNr>50991235</ReferenceNr>
+                    <PartyDetails>
+                        <Individual>
+                            <Name salutation="Mr" forename="" surname="Peter Crouch"/>
+                            <DateOfBirth>1966-01-02T00:00:00.000Z</DateOfBirth>
+                            <Age>51</Age>
+                            <Gender>Male</Gender>
+                            <MaritalStatus>Married</MaritalStatus>
+                            <ValidPPSNumber>false</ValidPPSNumber>
+                        </Individual>
+                    </PartyDetails>
+                    <ContactDetails>
+                        <PostalAddress>
+                            <Line>STOKE</Line>
+                        </PostalAddress>
+                        <EmailAddress></EmailAddress>
+                    </ContactDetails>
+                    <ForAttentionOf>
+                        <FAO faoName=""/>
+                    </ForAttentionOf>
+                </PartyRow>
+                <PartyRow>
+                    <PolicyRelationship>Agent</PolicyRelationship>
+                    <PartyDetails>
+                        <Organisation>
+                            <Name>50398968.SN</Name>
+                        </Organisation>
+                    </PartyDetails>
+                    <ContactDetails>
+                        <PostalAddress>
+                            <Line>50398968.ADD1</Line>
+                            <Line>50398968.ADD2</Line>
+                            <Line>50398968.ADD3</Line>
+                            <Line>50398968.ADD4</Line>
+                        </PostalAddress>
+                        <EmailAddress>eddie.condren@newireland.ie</EmailAddress>
+                    </ContactDetails>
+                </PartyRow>
+            </ns4:PolicyInterestedParties>
+            <ns4:RelatedPolicyInfo>
+                <ns4:MortgageNr>0</ns4:MortgageNr>
+                <ns4:MortgageNr>0</ns4:MortgageNr>
+                <ns4:MortgageNr>0</ns4:MortgageNr>
+            </ns4:RelatedPolicyInfo>
+            <ns4:AccountingInfo>
+                <ns4:PaymentDates>
+                    <ns4:BilledUntilDate>2017-09-06T00:00:00.000Z</ns4:BilledUntilDate>
+                    <ns4:NextPaymentDue>2017-09-06T00:00:00.000Z</ns4:NextPaymentDue>
+                </ns4:PaymentDates>
+                <ns4:PaymentStatement toAnnDate="2017-09-06T00:00:00.000Z"/>
+                <ns4:GovtLevyWaiver>false</ns4:GovtLevyWaiver>
+                <ns4:taxReliefFlag>false</ns4:taxReliefFlag>
+                <ns4:corporateTaxRateFlag>false</ns4:corporateTaxRateFlag>
+            </ns4:AccountingInfo>
+            <ns4:Application Id="0" UnderwritingRequired="false">
+                <ns4:nrPolicyOwners>0</ns4:nrPolicyOwners>
+                <ns4:IndexationSelected>false</ns4:IndexationSelected>
+                <ns4:ConversionOptionSelected>false</ns4:ConversionOptionSelected>
+                <ns4:ExtraDetails>
+                    <ns4:Protection>
+                        <ns4:ConfirmedIncomeOption>false</ns4:ConfirmedIncomeOption>
+                        <ns4:CurrentIncomeProtectionCover>false</ns4:CurrentIncomeProtectionCover>
+                    </ns4:Protection>
+                </ns4:ExtraDetails>
+            </ns4:Application>
+        </ns3:Policy>
+    </ns11:client>
+    <ns11:quoteScenario>
+        <ns16:QuoteDate>2017-09-06T00:00:00.000Z</ns16:QuoteDate>
+        <ns16:SpecialTerms>false</ns16:SpecialTerms>
+        <ns16:QuoteSettings>
+            <ns16:NonUnitLinked/>
+        </ns16:QuoteSettings>
+        <ns16:PriceMatch>
+            <ns16:PriceToMatch>-1.0</ns16:PriceToMatch>
+        </ns16:PriceMatch>
+        <ns16:PointOfIssue>
+            <ns16:RegularPremium>2646.8</ns16:RegularPremium>
+        </ns16:PointOfIssue>
+    </ns11:quoteScenario>
+</ns11:PerformQuoteRequest>

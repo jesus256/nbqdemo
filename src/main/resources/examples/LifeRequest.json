@@ -1,0 +1,13 @@
+{
+  "client": {
+    "clientDetails": {
+      "PolicyRelationship": "string",
+      "ReferenceNr": 23,
+      "DateOfBirth": "1955-02-10T00:00:00.000Z",
+      "Age": 32,
+      "Gender": "string",
+      "MaritalStatus": "Married",
+      "ValidPPSNumber": "false"
+    }
+  }
+}

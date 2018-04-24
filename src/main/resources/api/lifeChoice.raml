@@ -1,0 +1,56 @@
+#%RAML 1.0
+title: Life Choice API
+
+version: v1
+baseUri: http://localhost
+
+types:
+  PerformQuoteRequest:
+    type: object
+    properties:
+      client:
+        type: object
+        properties:
+          clientDetails:
+            type: object
+            properties:
+              PolicyRelationship:
+                type: string
+                example: "FirstOwner"
+              ReferenceNr:
+                type: number
+                example: 50991234
+              DateOfBirth:
+                type: datetime
+                example: "1955-02-10T00:00:00.000Z"
+              Age:
+                type: number
+                example: 62
+              Gender:
+                type: string
+                example: "Female"
+              MaritalStatus:
+                type: string
+                example: "Married"
+              ValidPPSNumber:
+                type: boolean
+                example: "false"
+
+  PerformQuoteResponse:
+    type: object
+    properties:
+      QuoteSuccess:
+        type: string
+        example: "Success"
+                
+/lifechoicequote:
+  post:
+    body:
+          application/json: PerformQuoteRequest
+    responses:
+      200:
+        body:
+          application/json: PerformQuoteResponse
+              
+              
+             
